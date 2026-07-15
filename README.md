@@ -20,11 +20,11 @@ building a formally verified artifact with LLM assistance.
 | Document | Contents |
 |---|---|
 | [`syllabus.md`](syllabus.md) | Course logistics, format, schedule, grading, project |
-| [`readings.md`](readings.md) | Candidate reading list (~40 papers, by topic, with summaries) |
+| [`readings.md`](readings.md) | Candidate reading list (49 papers, by topic, with summaries) |
 
 **Prerequisite:** CSE 210A (programming language semantics and verification,
 including mechanized proof in Coq/Rocq) or equivalent. The most recent
 offering is [CSE 210A, Winter 2026](https://ucsc-cse-210a.github.io/win26/index.html).
 
-*Status: planning draft. The reading list is a superset — roughly 40
-candidates that will be down-selected to ~18 presented papers.*
+*Status: planning draft. The reading list is a superset — 49 candidates
+that will be down-selected to ~18 presented papers.*
