@@ -3,6 +3,9 @@
 # into this directory, named "<Title> - <Authors>.pdf".
 #
 # Usage:  cd papers && ./download.sh
+#         ./download.sh --numbered   # prefix each file with its entry
+#                                    # number in readings.md ("07 - ...")
+#                                    # (or use ./download-num.sh)
 # Re-running skips files that already exist. Requires curl.
 #
 # Notes:
@@ -15,8 +18,16 @@
 
 set -u
 
+NUMBERED=0
+[ "${1:-}" = "--numbered" ] && NUMBERED=1
+ENTRY=0   # entry number in readings.md; download() calls below are in order
+
 download() {
   local url="$1" file="$2"
+  ENTRY=$((ENTRY + 1))
+  if [ "$NUMBERED" = 1 ]; then
+    file="$(printf '%02d' "$ENTRY") - $file"
+  fi
   if [ -s "$file" ]; then
     echo "SKIP (exists): $file"
     return 0

@@ -9,6 +9,13 @@ To populate this directory, run:
 cd papers && ./download.sh
 ```
 
+or, to prefix each file with its (zero-padded) entry number from
+`readings.md` so the PDFs sort in course order:
+
+```sh
+cd papers && ./download-num.sh      # "09 - SWE-bench - Can Language Models ... - Jimenez et al.pdf"
+```
+
 The script pulls each paper from arXiv (or the open-access publisher copy
 where no arXiv version exists), skips files already present, and verifies
 that each download is a real PDF. Entry 6 (CHI 2022) comes from the ACM
