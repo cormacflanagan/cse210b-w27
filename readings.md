@@ -4,8 +4,24 @@ This is a **superset** of 49 candidate papers, organized by topic and
 following the arc of the course (see [`syllabus.md`](syllabus.md)). The
 presented set (~18 papers, one per student-led session) will be down-selected
 by the instructor before the quarter begins. Each entry gives the citation, a
-link, and a one-paragraph summary. *See also* notes point at closely related
-work that could substitute for the main entry.
+link, a course-fit rating, an impact estimate, and a one-paragraph summary.
+*See also* notes point at closely related work that could substitute for the
+main entry.
+
+**Course fit** (how well the paper serves *this* course, not paper quality):
+
+| Rating | Meaning |
+|---|---|
+| ★★★★★ | Core — should anchor a session; directly advances the course thesis |
+| ★★★★☆ | Strong pick — excellent seminar material, clear fit |
+| ★★★☆☆ | Good optional — background, breadth, or substitutable coverage |
+| ★★☆☆☆ / ★☆☆☆☆ | Not used: papers below the 3★ bar were cut before making this list |
+
+**Citations** are approximate, gathered from Semantic Scholar / Google
+Scholar in July 2026. Interpret with the usual caveats: counts favor older
+papers and ML-venue visibility, so a 2025 verification paper with 30
+citations may matter more to this course than a 2021 benchmark paper with
+thousands.
 
 The through-line of the list: LLMs make code cheap; specifications and
 machine-checked proofs are how we make cheap code trustworthy — and LLMs are
@@ -790,6 +806,9 @@ taxonomy.
 
 - **Count:** 49 numbered entries; several *see also* pointers give ~15 more
   substitutable candidates.
+- **★★★★★ papers (8):** #8 (METR), #9 (SWE-bench), #24 (nl2postcond),
+  #31 (Verified Dafny), #34 (AutoVerus), #35 (AlphaVerus), #39 (Baldur),
+  #44 (Rango) — a defensible 8-paper core if the quarter were shorter.
 - **Berger group:** #15 (CoverUp), #18 (ChatDBG), plus Pythoness/Flowco in
   #30's note.
 - **Dillig group:** #13 (Coeditor), #23 (CRUST-Bench), #30 (SatLM),
