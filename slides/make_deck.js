@@ -64,7 +64,7 @@ async function iconPng(name, color, px = 256) {
   {
     const s = pres.addSlide();
     s.background = { color: NAVY };
-    s.addText("PAPER PRESENTATION · READING #39 · SESSION 17", {
+    s.addText("PAPER PRESENTATION · READING #39 · SESSION 13 · PAIRED WITH #40 DRAFT, SKETCH \u0026 PROVE", {
       x: 0.9, y: 0.95, w: 11, h: 0.35, fontFace: BODY, fontSize: 13, bold: true,
       color: ICE, charSpacing: 2, margin: 0 });
     s.addText("Baldur: Whole-Proof Generation and Repair with Large Language Models", {
@@ -79,7 +79,7 @@ async function iconPng(name, color, px = 256) {
     s.addText([
       { text: "Presented by ", options: { color: ICE } },
       { text: "<your name>", options: { color: WHITE, bold: true } },
-      { text: "  ·  Tue Mar 2, 2027", options: { color: ICE } },
+      { text: "  ·  Thu Feb 18, 2027", options: { color: ICE } },
     ], { x: 0.9, y: 5.45, w: 11, h: 0.4, fontFace: BODY, fontSize: 15, margin: 0 });
     s.addText("Example deck, auto-drafted from the course reading list — replace highlighted fields after your own read + reality check.", {
       x: 0.9, y: 6.55, w: 11.5, h: 0.35, fontFace: BODY, fontSize: 11, italic: true,

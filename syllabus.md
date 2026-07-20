@@ -72,16 +72,17 @@ By the end of the quarter, students should be able to:
 
 This is a **student-led reading seminar**.
 
-- **One paper per meeting is the default.** Sixteen meetings are paper
-  sessions; thirteen cover a single paper in depth. This keeps the
-  non-presenter load at two papers + four reading questions per week —
-  sustainable alongside the project — and gives each paper enough airtime
-  for real discussion.
-- **Three designated debate sessions** pair two papers whose *comparison*
-  is the content (marked in the schedule). Two presenters, one paper each,
-  ~20 minutes of slides apiece, then a joint moderated discussion in which
-  each defends their paper's worldview. This brings the quarter's total to
-  **19 presented papers**.
+- **Fifteen paper sessions** (meetings 2–16): seven single-paper sessions
+  and eight pair sessions, for **23 presented papers**. The selected
+  program, with a contextual summary of each session, is
+  [`reading-15.md`](reading-15.md); the full candidate pool remains
+  [`readings.md`](readings.md). Reading load never exceeds three papers
+  per week.
+- **Pair sessions** put two presenters on stage, ~20 minutes of slides
+  each, then a joint moderated discussion. Three pairs are **debates**
+  (the papers genuinely disagree — each presenter defends their paper's
+  worldview); five are **complements** (the papers answer each other's
+  open question).
 - **Single-paper presentations** run ~35–40 minutes of prepared material,
   interleaved with discussion the presenter moderates for the remainder of
   the session.
@@ -114,8 +115,10 @@ day's presenter) submits **two discussion questions** on the paper.
 
 ### Presenter responsibilities
 
-1. Claim your paper by the end of week 2 (sign-up sheet seeded from
-   [`readings.md`](readings.md) after the instructor down-selects).
+1. Claim your paper by the end of week 1 (sign-up sheet is the
+   session-by-session program in [`reading-15.md`](reading-15.md); the
+   session-1 presenters for Thu Jan 7 are recruited before the quarter
+   starts).
 2. **Run the reality check.** Before your presentation, rerun the paper's
    core task with a current frontier model (most papers on our list have
    public benchmarks/artifacts — sample a subset if the full benchmark is
@@ -174,7 +177,7 @@ verified software artifact**, and report on the experience.
 |---|---|
 | Thu Jan 21 | Project proposal (1 page: goal, stack, verification target) |
 | Week 6 | Checkpoint meeting with instructor (spec written, proof skeleton) |
-| Tue Mar 9 / Thu Mar 11 | In-class project presentations |
+| Mar 2 – Mar 11 (meetings 17–20) | In-class project presentations |
 | Fri Mar 19 (end of finals week) | Final report (~6 pages) + artifact repo |
 
 ## Grading (draft)
@@ -189,34 +192,34 @@ verified software artifact**, and report on the experience.
 ## Schedule
 
 Winter 2027 instruction runs Mon Jan 4 – Fri Mar 12; final exams Mar 15–19.
-No Tuesday/Thursday holidays this quarter. Papers below are **slots**, to be
-filled from [`readings.md`](readings.md) once the presented set is
-down-selected (19 of the 49 candidates: 13 single-paper sessions + 3
-two-paper debates); the topic arc is indicative, and the suggested debate
-pairings are examples (entry numbers refer to `readings.md`).
+No Tuesday/Thursday holidays this quarter. One instructor intro, fifteen
+paper sessions (the selected program — see
+[`reading-15.md`](reading-15.md) for session-by-session context), and four
+project-presentation classes. Entry numbers (#N) refer to
+[`readings.md`](readings.md).
 
 | # | Date | Topic |
 |---|------|-------|
-| 1 | Tue Jan 5 | **Instructor:** Live demo first — mechanizing a piece of PL metatheory with Claude + Lean, unedited, failures included. Then: the case that verification just got 10–100x cheaper; course mechanics; paper sign-ups open |
-| 2 | Thu Jan 7 | **Instructor:** Foundations — how LLMs generate code; benchmarks, leaderboards, and their discontents. In-class exercise: plot capability-over-time curves from the numbers in the reading list itself (background reading assigned) |
-| 3 | Tue Jan 12 | Foundations of LLM code generation (paper 1) |
-| 4 | Thu Jan 14 | Foundations / evaluating generated code (paper 2) |
-| 5 | Tue Jan 19 | Human factors of AI-assisted programming (paper 3) |
-| 6 | Thu Jan 21 | **Debate:** perceived vs. measured productivity (papers 4–5; e.g. #7 Copilot telemetry vs. #8 METR RCT) — *project proposals due* |
-| 7 | Tue Jan 26 | Coding agents for large-scale SE (paper 6) |
-| 8 | Thu Jan 28 | **Debate:** agents vs. pipelines (papers 7–8; e.g. #10 SWE-agent vs. #12 Agentless) |
-| 9 | Tue Feb 2 | LLM-powered testing & fuzzing (paper 9) |
-| 10 | Thu Feb 4 | LLM-powered debugging & repair (paper 10) |
-| 11 | Tue Feb 9 | Security & trust of AI-generated code (paper 11) |
-| 12 | Thu Feb 11 | **Debate:** how insecure is generated code vs. how much do users overtrust it (papers 12–13; e.g. #20 Asleep at the Keyboard vs. #21 Perry et al.) |
-| 13 | Tue Feb 16 | Specifications & invariants from LLMs (paper 14) — *checkpoint week* |
-| 14 | Thu Feb 18 | Specifications & invariants, continued (paper 15) |
-| 15 | Tue Feb 23 | LLM-assisted auto-active verification: Dafny (paper 16) |
-| 16 | Thu Feb 25 | LLM-assisted auto-active verification: Verus / F* (paper 17) |
-| 17 | Tue Mar 2 | LLMs for interactive theorem proving (paper 18) |
-| 18 | Thu Mar 4 | LLMs for ITP / autoformalization (paper 19) |
-| 19 | Tue Mar 9 | **Project presentations I** |
-| 20 | Thu Mar 11 | **Project presentations II** + synthesis: what should PL/SE research do now? (incl. the open problem of paper-scale autoformalization — a POPLmark for the LLM era) |
+| 1 | Tue Jan 5 | **Instructor intro:** Live demo first — mechanizing a piece of PL metatheory with Claude + Lean, unedited, failures included. Then: the case that verification just got 10–100x cheaper; course mechanics; how the benchmarks work; paper sign-ups (session-1 presenters recruited in advance) |
+| 2 | Thu Jan 7 | **S1 (pair):** Foundations — #1 Codex/HumanEval + #3 EvalPlus: generation, and whether to believe the numbers |
+| 3 | Tue Jan 12 | **S2 (debate):** #7 Copilot telemetry vs. #8 METR RCT — perceived vs. measured productivity |
+| 4 | Thu Jan 14 | **S3:** #9 SWE-bench — the agents' yardstick. Incl. in-class exercise: plot capability-over-time from the reading list's own numbers |
+| 5 | Tue Jan 19 | **S4 (debate):** #10 SWE-agent vs. #12 Agentless — agency vs. pipelines |
+| 6 | Thu Jan 21 | **S5:** #15 CoverUp — analysis-in-the-loop test generation — *project proposals due* |
+| 7 | Tue Jan 26 | **S6:** #21 Perry et al. — overtrust, and why human review doesn't scale |
+| 8 | Thu Jan 28 | **S7 (pair):** #24 nl2postcond + #30 SatLM — specs from intent; translate, don't reason |
+| 9 | Tue Feb 2 | **S8 (pair):** #27 Loopy + #29 Lemur — LLM invariants in practice and in theory |
+| 10 | Thu Feb 4 | **S9:** #31 Verified Dafny methods — feasibility of verified codegen |
+| 11 | Tue Feb 9 | **S10:** #32 Clover — verified against *what*? The trust triangle |
+| 12 | Thu Feb 11 | **S11 (debate):** #34 AutoVerus vs. #35 AlphaVerus — craft vs. self-improvement (and reward-hacking the verifier) |
+| 13 | Tue Feb 16 | **S12:** #36 Neural synthesis for F* — verification at industrial scale — *checkpoint week* |
+| 14 | Thu Feb 18 | **S13 (pair):** #39 Baldur + #40 Draft, Sketch & Prove — the ITP paradigm papers |
+| 15 | Tue Feb 23 | **S14:** #44 Rango — proof automation for real software projects |
+| 16 | Thu Feb 25 | **S15 (pair, closing):** #47 AlphaProof + #49 Formal Mathematical Reasoning — the frontier and the agenda; class drafts the "what should PL/SE research do now?" list (incl. paper-scale autoformalization — a POPLmark for the LLM era) |
+| 17 | Tue Mar 2 | **Project presentations I** |
+| 18 | Thu Mar 4 | **Project presentations II** |
+| 19 | Tue Mar 9 | **Project presentations III** |
+| 20 | Thu Mar 11 | **Project presentations IV** + course wrap: reality-checks synthesis |
 
 ## Policies
 

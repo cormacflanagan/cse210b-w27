@@ -48,8 +48,8 @@ Copy the block below; keep entries in course-schedule order.
 
 <!-- Entries begin here. Keep in course-schedule order. -->
 
-*No entries yet — the first reality checks land with the week 3
-presentations (Tue Jan 12).*
+*No entries yet — the first reality checks land with session 1
+(Thu Jan 7).*
 
 ---
 

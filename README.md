@@ -20,7 +20,8 @@ building a formally verified artifact with LLM assistance.
 | Document | Contents |
 |---|---|
 | [`syllabus.md`](syllabus.md) | Course logistics, format, schedule, grading, project |
-| [`readings.md`](readings.md) | Candidate reading list (49 papers, by topic, with summaries) |
+| [`reading-15.md`](reading-15.md) | **The selected program**: 15 sessions, 23 papers, in-context summaries |
+| [`readings.md`](readings.md) | Full candidate pool (49 papers, by topic, with summaries, ratings, impact) |
 | [`reality-checks.md`](reality-checks.md) | Class obsolescence log: per-paper reruns with current tools |
 | [`papers/`](papers/) | PDF download scripts (plain and numbered filenames) |
 
@@ -28,6 +29,6 @@ building a formally verified artifact with LLM assistance.
 including mechanized proof in Coq/Rocq) or equivalent. The most recent
 offering is [CSE 210A, Winter 2026](https://ucsc-cse-210a.github.io/win26/index.html).
 
-*Status: planning draft. The reading list is a superset — 49 candidates
-that will be down-selected to 19 presented papers (13 single-paper
-sessions plus 3 two-paper debate sessions).*
+*Status: planning draft. `readings.md` is the 49-paper candidate pool;
+`reading-15.md` is the selected program — 23 papers across 15 sessions
+(7 singles, 8 pairs of which 3 are debates).*
