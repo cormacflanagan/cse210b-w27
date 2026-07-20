@@ -29,4 +29,5 @@ including mechanized proof in Coq/Rocq) or equivalent. The most recent
 offering is [CSE 210A, Winter 2026](https://ucsc-cse-210a.github.io/win26/index.html).
 
 *Status: planning draft. The reading list is a superset — 49 candidates
-that will be down-selected to ~18 presented papers.*
+that will be down-selected to 19 presented papers (13 single-paper
+sessions plus 3 two-paper debate sessions).*

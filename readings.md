@@ -2,8 +2,9 @@
 
 This is a **superset** of 49 candidate papers, organized by topic and
 following the arc of the course (see [`syllabus.md`](syllabus.md)). The
-presented set (~18 papers, one per student-led session) will be down-selected
-by the instructor before the quarter begins. Each entry gives the citation, a
+presented set — 19 papers: 13 single-paper student-led sessions plus 3
+two-paper debate sessions — will be down-selected by the instructor before
+the quarter begins. Each entry gives the citation, a
 link, a course-fit rating, an impact estimate, and a one-paragraph summary.
 *See also* notes point at closely related work that could substitute for the
 main entry.
@@ -861,5 +862,12 @@ Two reference points for this discussion, outside the numbered list:
   CoqPilot/Graph2Tac in #44's note.
 - **Skeptical counterweights** (recommended to keep at least two): #8 (METR),
   #22 (package hallucinations), #23 (CRUST-Bench), #38 (Verina).
-- **Suggested per-section quota for an 18-paper quarter:** 2 / 2 / 2 / 2 / 2
-  / 2 / 3 / 2 / 1 — but the schedule in `syllabus.md` accommodates any split.
+- **Suggested per-section quota for the 19-paper quarter** (matching the
+  schedule's topic arc, with debate sessions in sections 2, 3, and 5):
+  2 / 3 / 3 / 2 / 3 / 2 / 2 / 1 / 1 — but the schedule in `syllabus.md`
+  accommodates any split.
+- **Debate pairs** (for the three two-paper sessions): #7 vs. #8
+  (perceived vs. measured productivity), #10 vs. #12 (agents vs.
+  pipelines), #20 vs. #21 (generated-code security vs. user overtrust).
+  Substitutable alternatives: #5 vs. #6 (how programmers use assistants),
+  #34 vs. #35 (expert-mimicking agents vs. self-improving translation).
