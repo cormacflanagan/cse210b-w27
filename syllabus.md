@@ -43,6 +43,18 @@ less — they are the trust anchor that lets us safely consume AI-generated
 code. We will repeatedly ask: what should SE and PL research look like when
 the marginal cost of both code and proof approaches zero?
 
+**A note on reading papers in a fast-moving field.** Publication latency
+means even the 2025 papers on our list lag what frontier tools do today by
+one or more capability generations. We handle this head-on rather than
+pretending otherwise: **read the papers for questions and methods, run the
+tools for answers, and treat every gap you find between them as data.**
+Mechanically, that means every presentation includes a *reality check*
+(rerun the paper's core task with current tools — see below), each week
+pairs the paper with one piece of current capability evidence, and the
+class maintains a shared obsolescence log
+([`reality-checks.md`](reality-checks.md)) that becomes raw material for
+the final synthesis session.
+
 ## Learning goals
 
 By the end of the quarter, students should be able to:
@@ -87,13 +99,30 @@ day's presenter) submits **two discussion questions** on the paper.
 
 1. Claim your paper by the end of week 2 (sign-up sheet seeded from
    [`readings.md`](readings.md) after the instructor down-selects).
-2. Meet with the instructor (office hours or by appointment) at least two
+2. **Run the reality check.** Before your presentation, rerun the paper's
+   core task with a current frontier model (most papers on our list have
+   public benchmarks/artifacts — sample a subset if the full benchmark is
+   large). Your presentation must include one slide: the paper's headline
+   number vs. yours, and which of the paper's claimed limitations still
+   hold. The paper is the baseline; your delta is a finding.
+3. Meet with the instructor (office hours or by appointment) at least two
    days before your presentation to walk through your slides.
-3. Read the submitted questions the night before; select and sequence
+4. Read the submitted questions the night before; select and sequence
    discussion topics.
-4. Within one week after presenting, post a short written recap
-   (half a page: key points, main discussion threads, open questions) to the
-   course repo.
+5. Within one week after presenting, post a short written recap
+   (half a page: key points, main discussion threads, open questions) to
+   the course repo, and log your reality-check results in
+   [`reality-checks.md`](reality-checks.md).
+
+### Capability evidence track
+
+Because current capability evidence lives in leaderboards, system cards,
+and eval reports rather than proceedings, each week pairs the papers with
+**one non-paper item** — e.g., the current SWE-bench Verified leaderboard,
+miniF2F/PutnamBench saturation curves, a frontier-lab eval or system card,
+or Terence Tao's running notes on AI-assisted Lean formalization. We spend
+the first ~10 minutes of each Tuesday on it: what moved since last week,
+and which paper on our list it updates.
 
 ## Course project
 
@@ -135,7 +164,7 @@ verified software artifact**, and report on the experience.
 
 | Component | Weight |
 |---|---|
-| Paper presentation (incl. prep meeting + recap) | 25% |
+| Paper presentation (incl. reality check, prep meeting, recap) | 25% |
 | Reading questions (credit/no-credit, per paper) | 15% |
 | Discussion participation | 15% |
 | Course project (proposal 5%, checkpoint 5%, presentation 10%, report + artifact 25%) | 45% |
@@ -149,8 +178,8 @@ down-selected (~18 of ~40 candidates); the topic arc is indicative.
 
 | # | Date | Topic |
 |---|------|-------|
-| 1 | Tue Jan 5 | **Instructor:** Course overview. The case that verification just got 10–100x cheaper; course mechanics; paper sign-ups open |
-| 2 | Thu Jan 7 | **Instructor:** Foundations — how LLMs generate code; benchmarks and their discontents (background reading assigned) |
+| 1 | Tue Jan 5 | **Instructor:** Live demo first — mechanizing a piece of PL metatheory with Claude + Lean, unedited, failures included. Then: the case that verification just got 10–100x cheaper; course mechanics; paper sign-ups open |
+| 2 | Thu Jan 7 | **Instructor:** Foundations — how LLMs generate code; benchmarks, leaderboards, and their discontents. In-class exercise: plot capability-over-time curves from the numbers in the reading list itself (background reading assigned) |
 | 3 | Tue Jan 12 | Foundations of LLM code generation (paper 1) |
 | 4 | Thu Jan 14 | Foundations / evaluating generated code (paper 2) |
 | 5 | Tue Jan 19 | Human factors of AI-assisted programming (paper 3) |

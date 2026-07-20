@@ -21,6 +21,8 @@ building a formally verified artifact with LLM assistance.
 |---|---|
 | [`syllabus.md`](syllabus.md) | Course logistics, format, schedule, grading, project |
 | [`readings.md`](readings.md) | Candidate reading list (49 papers, by topic, with summaries) |
+| [`reality-checks.md`](reality-checks.md) | Class obsolescence log: per-paper reruns with current tools |
+| [`papers/`](papers/) | PDF download scripts (plain and numbered filenames) |
 
 **Prerequisite:** CSE 210A (programming language semantics and verification,
 including mechanized proof in Coq/Rocq) or equivalent. The most recent
