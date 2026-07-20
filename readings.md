@@ -806,6 +806,46 @@ taxonomy.
 
 ---
 
+## 10. Coda — an open problem: formalizing PL papers themselves
+
+A gap the list above makes visible. Practitioners now routinely sit down
+with a frontier LLM, hand it a POPL-style paper, and get a faithful Lean or
+Rocq mechanization: the model *invents the definitions* (syntax, semantics,
+judgments), states the theorems, and grinds out the proofs interactively
+against the checker. **No published paper describes this end-to-end
+workflow.** The literature covers the pieces separately: informal-to-formal
+proof scaffolding (#40), statement autoformalization over a *fixed*
+vocabulary (#46–48), and proof completion *given* an existing formal
+development (#39, #42–44). The hard part of mechanizing a research paper —
+definitional autoformalization, where the vocabulary itself must be
+constructed and definitional fidelity is exactly where formalizations
+silently go wrong — is acknowledged as open (#49) but not attacked.
+This is arguably the sharpest research opportunity the course surfaces, and
+the flagship genre for course projects (see `syllabus.md`).
+
+Two reference points for this discussion, outside the numbered list:
+
+- **Mechanized Metatheory for the Masses: The POPLmark Challenge.**
+  *Brian E. Aydemir, Aaron Bohannon, Matthew Fairbairn, et al. (incl.
+  Benjamin C. Pierce, Peter Sewell, Stephanie Weirich, Steve Zdancewic).
+  TPHOLs 2005.*
+  [Springer](https://link.springer.com/chapter/10.1007/11541868_4) —
+  the pre-LLM-era statement of "mechanize PL metatheory" as a community
+  benchmark (System F-sub with binding, records, and hairy inductions).
+  Twenty years on, the natural seminar question: what does a POPLmark for
+  the LLM era look like — formalize *whole papers*, judged on definitional
+  fidelity rather than proof completion?
+- **miniCTX: Neural Theorem Proving with (Long-)Contexts.**
+  *Jiewen Hu, Thomas Zhu, Sean Welleck. ICLR 2025 (Oral).*
+  [arXiv](https://arxiv.org/abs/2408.03350) — the evaluation setting
+  closest to research-paper formalization in the current literature:
+  proving theorems that depend on *new, unseen* definitions and context
+  from real, growing Lean projects (not a static library), showing
+  context-dependence is what separates benchmark proving from real
+  formalization work.
+
+---
+
 ## Coverage notes for down-selection
 
 - **Count:** 49 numbered entries; several *see also* pointers give ~15 more

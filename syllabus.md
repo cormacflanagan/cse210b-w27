@@ -108,6 +108,15 @@ verified software artifact**, and report on the experience.
   in a quarter — e.g., a verified data structure or protocol core, a
   verified compiler pass or interpreter, verified parsing/serialization
   round-trips, or reproducing/extending a result from a paper we read.
+- **Flagship genre — mechanize a published PL paper:** take a POPL/PLDI/
+  ICFP-style paper (its core calculus, semantics, and soundness theorem)
+  and produce a faithful Lean or Rocq mechanization with LLM assistance.
+  This workflow is something current tools do in practice but no published
+  paper yet describes (see the "open problem" coda in
+  [`readings.md`](readings.md)) — so a careful experience report here is
+  itself near-publishable. Pay particular attention to *definitional
+  fidelity*: the failure mode that matters is not a proof that won't close
+  but a definition that quietly diverges from the paper's.
 - **The experience report matters as much as the artifact.** Keep a log:
   where did the LLM save you time (spec drafting, invariants, proof search,
   proof repair)? Where did it mislead you? What was the human/AI division of
@@ -159,7 +168,7 @@ down-selected (~18 of ~40 candidates); the topic arc is indicative.
 | 17 | Tue Mar 2 | LLMs for interactive theorem proving (paper 15) |
 | 18 | Thu Mar 4 | LLMs for ITP / autoformalization (paper 16) |
 | 19 | Tue Mar 9 | **Project presentations I** |
-| 20 | Thu Mar 11 | **Project presentations II** + synthesis: what should PL/SE research do now? |
+| 20 | Thu Mar 11 | **Project presentations II** + synthesis: what should PL/SE research do now? (incl. the open problem of paper-scale autoformalization — a POPLmark for the LLM era) |
 
 ## Policies
 
